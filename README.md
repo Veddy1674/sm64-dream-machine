@@ -7,15 +7,15 @@ This 'inputbased' branch is another (and slightly better) experiment, where from
 
 Normally, to train the "dreamnet" with your own frames, you have to:
 
-  **1.** In your Mupen64 emulator, **run `avicapture.lua`** or the variants and do what the script says.
-  
-  **2.** This will save one or more videos to `videos/`, so **run `aviToPng.py`** to convert the videos into 96x96 borderless .png images (inside `preframes/`).
-  
-  **3.** **Run `checksum.lua`** to remove duplicated frames, because Mupen64 records at 60 fps, the 1st and 3rd frame are identical, same with 3rd and 5th, 5th and 7th and so on.
-  
-  **4.** **Train your dreamnet with `train_model.py`**, I personally used *Google Colab* for this.
-  
-  **5.** After the training you will end up with a `dreamnet.pth` in your project root, **run `realtime_predict.py`** and see the results.
+   **1.** In your Mupen64 emulator, **run `avicapture.lua`** or the variants and do what the script says.
+   
+   **2.** This will save one or more videos to `videos/`, so **run `aviToPng.py`** to convert the videos into 96x96 borderless .png images (inside `preframes/`).
+   
+   **3.** **Run `checksum.lua`** to remove duplicated frames, because Mupen64 records at 60 fps, the 1st and 3rd frame are identical, same with 3rd and 5th, 5th and 7th and so on.
+   
+   **4.** **Train your dreamnet with `train_model.py`**, I personally used *Google Colab* for this.
+   
+   **5.** After the training you will end up with a `dreamnet.pth` in your project root, **run `realtime_predict.py`** and see the results.
 
 
 
