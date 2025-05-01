@@ -1,8 +1,7 @@
 # Super Mario 64 - Dream Machine
 Inspired by Oasis and DeepMind's "dream" machines.
 
-This 'inputbased' branch is another (and slightly better) experiment, where from a single frame you can press a key and the AI will predict the image, all this in real-time (30+ fps), there are many issues, but if you're curious how it looks like, my best attempt is saved in the folder `success`: bring the *inputs.txt* inside *videos/*, the *dreamnet.pth* in the project root and extract *frames.zip* inside *frames/*, then run **realtime_predict.py** (preferably in VSCode), from there you can predict the next frame using WASD to move (no A, B, Z or other buttons), R to reset (sets to 'frame_00000.png'), ESC to end.
-
+This 'inputbased' branch is another (and slightly better) experiment, where from a single frame you can press a key and the AI will predict the image, all this in real-time (30+ fps), there are many issues, but if you're curious how it looks like, my best attempt is saved in the folder `success`: bring the *inputs.txt* inside *videos/*, the *dreamnet.pth* in the project root and extract *frames.zip* inside *frames/*, then run **realtime_predict.py** (preferably in VSCode), from there you can predict the next frame using WASD to move (no A, B, Z or other buttons), R to reset (sets to 'frame_00000.png'), ESC to end.\n
 
 Normally, to train the "dreamnet" with your own frames, you have to:
 
