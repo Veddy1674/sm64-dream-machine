@@ -1,3 +1,6 @@
+## Note: I consider this project *old* and not quite useful for anything, I could say it was an experiment of the old me, not something long-term. This project, or atleast, this branch, will be left as it is. Just as a memory for myself, as I made this when I was roughly 15 to 16 years old, I believe. Cheers everyone!
+Also, I see that I couldn't really understand the complexity of this all, and I believe some of the scripts were COMPLETELY AI generated, so well... If any good soul wishes to continue this project, peraphs in a simpler environment than "the whole super mario 64 game", go ahead!
+
 # Super Mario 64 - Dream Machine
 Inspired by Oasis and DeepMind's "dream" machines.
 
